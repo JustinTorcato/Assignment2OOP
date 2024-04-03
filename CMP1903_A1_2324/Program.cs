@@ -10,7 +10,8 @@ namespace CMP1903_A1_2324
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            Die die1 = new Die();
+            Die.roll();
             Console.ReadLine();
         }
     }
