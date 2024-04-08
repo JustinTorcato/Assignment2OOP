@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 
 namespace CMP1903_A1_2324
 {
-    class Die
+    public class Die
     {
-        public int rolledNum;
-        public int Roll()
-        {
-            //https://youtu.be/1gSFd-YVFP8?si=Rpdr2gLzbcuNrAvP
+        public int currentDieValue;
 
-            Random random = new Random();
-            int num = random.Next(1, 7);
-            return num;
+        public void Roll()
+        {
+            Random rnd = new Random();
+            int diceRoll = rnd.Next(1, 7);
+            currentDieValue = diceRoll;
         }
     }
+    
+
 }
