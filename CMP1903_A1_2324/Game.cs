@@ -17,10 +17,12 @@ namespace CMP1903_A1_2324
             int total = 0;
 
             die1.Roll();
+           
             Console.WriteLine("dice one rolled " + die1.currentDieValue);
             total += die1.currentDieValue;
 
             die2.Roll();
+            
             Console.WriteLine("dice two rolled " + die2.currentDieValue);
             total += die2.currentDieValue;
 
@@ -29,7 +31,12 @@ namespace CMP1903_A1_2324
             total += die3.currentDieValue;
 
             Console.WriteLine(total);
-        }
 
+        }
+    }
+    internal class GameTest
+    {
+        Testing tdieTest(die1.currentDieValue)est = new Testing();
+        test.
     }
 }
