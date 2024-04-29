@@ -11,7 +11,7 @@ namespace CMP1903_A1_2324
         static void Main(string[] args)
         {
             Game game1 = new Game();
-            
+            Console.ReadLine();
         }
     }
 }

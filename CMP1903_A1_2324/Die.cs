@@ -11,10 +11,10 @@ namespace CMP1903_A1_2324
     {
         public int currentDieValue;
 
+        private static Random random = new Random();
         public void Roll()
-        {
-            Random rnd = new Random();
-            int diceRoll = rnd.Next(1, 7);
+        { 
+            int diceRoll = random.Next(1, 7);
             currentDieValue = diceRoll;
         }
     }
