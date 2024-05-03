@@ -10,11 +10,11 @@ namespace CMP1903_A1_2324
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)                                                       //Main program to start the code
         {
             Console.WriteLine("Please pick a game\nSevens Out [1]\nThree Or More [2]");
             string userInput = Console.ReadLine();
-            if (userInput == "1")
+            if (userInput == "1")                                                             //Asks user to pick which gamemode they prefer
             {
                 SevensOut sevensOut = new SevensOut();
             }

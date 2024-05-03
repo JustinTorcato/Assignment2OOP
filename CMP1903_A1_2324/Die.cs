@@ -12,8 +12,8 @@ namespace CMP1903_A1_2324
         public int currentDieValue;
 
         private static Random random = new Random();
-        public void Roll()
-        { 
+        public void Roll()                                      //Roll command. Randomly selects number from 1-7
+        {                                                       //Sets the number to currentDieValue and used by object
             int diceRoll = random.Next(1, 7);
             currentDieValue = diceRoll;
         }
